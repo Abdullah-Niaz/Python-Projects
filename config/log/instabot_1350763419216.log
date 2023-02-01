@@ -1,0 +1,13 @@
+2023-01-25 11:11:14,376 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2023-01-25 11:11:14,376 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\abdul\AppData\Local\Programs\Python\Python311\Lib\site-packages\instabot\bot\bot.py
+2023-01-25 11:11:14,378 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2023-01-25 11:11:14,897 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2023-01-25 11:11:15,500 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2023-01-25 11:11:16,158 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2023-01-25 11:11:16,673 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2023-01-25 11:11:21,282 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [400]>
+2023-01-25 11:11:21,282 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"challenge_required","challenge":{"url":"https://i.instagram.com/challenge/AXGGSUz7VkdtoS8QZ7iOPh3NZ6fCrSmYaV-UvoBIU6ktaTpcU5JIghTTdVmYeTIGcT0aVdg/AfzrSqRql_egYA5Ir2dyjqi96wSt3cuKjpGdY2MSqldr-0OywwVllawtbjfhoK6OYR5VutGPqM4hEQ/","api_path":"/challenge/AXGGSUz7VkdtoS8QZ7iOPh3NZ6fCrSmYaV-UvoBIU6ktaTpcU5JIghTTdVmYeTIGcT0aVdg/AfzrSqRql_egYA5Ir2dyjqi96wSt3cuKjpGdY2MSqldr-0OywwVllawtbjfhoK6OYR5VutGPqM4hEQ/","hide_webview_header":true,"lock":true,"logout":false,"native_flow":true,"flow_render_type":0},"status":"fail","error_type":"checkpoint_challenge_required"}'
+2023-01-25 11:11:21,282 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2023-01-25 11:11:21,282 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2023-01-25 11:11:21,286 - instabot version: 0.117.0 (api) - INFO - Error type: checkpoint_challenge_required
+2023-01-25 11:11:21,286 - instabot version: 0.117.0 (api) - CRITICAL - Not logged in!

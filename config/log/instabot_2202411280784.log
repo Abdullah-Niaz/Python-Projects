@@ -1,0 +1,49 @@
+2023-02-02 13:50:34,526 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2023-02-02 13:50:34,527 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\abdul\AppData\Local\Programs\Python\Python311\Lib\site-packages\instabot\bot\bot.py
+2023-02-02 13:50:34,541 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2023-02-02 13:50:34,542 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2023-02-02 13:50:34,542 - instabot version: 0.117.0 (api_login) - INFO - Recovery from D:\PS\python-projects/config/esthetic__09_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=d67cba5f-02cc-46b3-b90f-7e32cce81510
+- uuid=d14ac379-6ed2-4e15-b435-cf73864f98cc
+- client_session_id=2bc7fb61-d40f-456d-9bf6-32930c92b691
+- device_id=android-896cd5ded373bd84
+2023-02-02 13:50:34,543 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2023-02-02 13:51:07,389 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2023-02-02 13:51:16,930 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2023-02-02 13:51:17,750 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: direct_v2/ranked_recipients/ returned response: <Response [405]>
+2023-02-02 13:51:17,750 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b''
+2023-02-02 13:51:17,750 - instabot version: 0.117.0 (api) - ERROR - Request returns 405 error!
+2023-02-02 13:51:17,750 - instabot version: 0.117.0 (api) - ERROR - Error checking for `feedback_required`, response text is not JSON
+2023-02-02 13:51:17,750 - instabot version: 0.117.0 (api) - INFO - Full Response: <Response [405]>
+2023-02-02 13:51:17,750 - instabot version: 0.117.0 (api) - INFO - Response Text: 
+2023-02-02 13:51:17,750 - instabot version: 0.117.0 (api) - ERROR - Error unknown send request
+2023-02-02 13:51:18,805 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: direct_v2/ranked_recipients/ returned response: <Response [405]>
+2023-02-02 13:51:18,805 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b''
+2023-02-02 13:51:18,807 - instabot version: 0.117.0 (api) - ERROR - Request returns 405 error!
+2023-02-02 13:51:18,807 - instabot version: 0.117.0 (api) - ERROR - Error checking for `feedback_required`, response text is not JSON
+2023-02-02 13:51:18,807 - instabot version: 0.117.0 (api) - INFO - Full Response: <Response [405]>
+2023-02-02 13:51:18,811 - instabot version: 0.117.0 (api) - INFO - Response Text: 
+2023-02-02 13:51:18,812 - instabot version: 0.117.0 (api) - ERROR - Error unknown send request
+2023-02-02 13:51:51,969 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: direct_v2/inbox/ returned response: <Response [200]>
+2023-02-02 13:52:04,039 - instabot version: 0.117.0 (api) - WARNING - HTTPSConnectionPool(host='i.instagram.com', port=443): Max retries exceeded with url: /api/v1/direct_v2/get_presence/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000200CC85D550>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2023-02-02 13:52:04,051 - instabot version: 0.117.0 (api) - WARNING - HTTPSConnectionPool(host='i.instagram.com', port=443): Max retries exceeded with url: /api/v1/news/inbox/?limited_activity=true&show_su=true (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000200CC8ABB90>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2023-02-02 13:52:04,062 - instabot version: 0.117.0 (api) - WARNING - HTTPSConnectionPool(host='i.instagram.com', port=443): Max retries exceeded with url: /api/v1/users/profile_notice/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000200CC8B4650>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2023-02-02 13:52:04,071 - instabot version: 0.117.0 (api) - WARNING - HTTPSConnectionPool(host='i.instagram.com', port=443): Max retries exceeded with url: /api/v1/discover/explore/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000200CC8B4A90>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2023-02-02 13:52:04,074 - instabot version: 0.117.0 (api) - INFO - Login flow failed, the cookie is broken. Relogin again.
+2023-02-02 13:52:04,113 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2023-02-02 13:52:04,113 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2023-02-02 13:52:04,113 - instabot version: 0.117.0 (api_login) - INFO - Recovery from D:\PS\python-projects/config/esthetic__09_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=d67cba5f-02cc-46b3-b90f-7e32cce81510
+- uuid=d14ac379-6ed2-4e15-b435-cf73864f98cc
+- client_session_id=83d60da0-3ee3-44a5-9805-e0235ecc7bb6
+- device_id=android-896cd5ded373bd84
+2023-02-02 13:52:04,133 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2023-02-02 13:52:04,158 - instabot version: 0.117.0 (api) - WARNING - HTTPSConnectionPool(host='i.instagram.com', port=443): Max retries exceeded with url: /api/v1/accounts/get_prefill_candidates/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000200CC8B4B50>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2023-02-02 13:52:04,169 - instabot version: 0.117.0 (api) - WARNING - HTTPSConnectionPool(host='i.instagram.com', port=443): Max retries exceeded with url: /api/v1/qe/sync/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000200CC8B4F90>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2023-02-02 13:52:04,175 - instabot version: 0.117.0 (api) - WARNING - HTTPSConnectionPool(host='i.instagram.com', port=443): Max retries exceeded with url: /api/v1/launcher/sync/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000200CC8B5090>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2023-02-02 13:52:04,188 - instabot version: 0.117.0 (api) - WARNING - HTTPSConnectionPool(host='i.instagram.com', port=443): Max retries exceeded with url: /api/v1/accounts/contact_point_prefill/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000200CC8B5310>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2023-02-02 13:52:04,212 - instabot version: 0.117.0 (api) - WARNING - HTTPSConnectionPool(host='i.instagram.com', port=443): Max retries exceeded with url: /api/v1/accounts/login/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000200CC8B5550>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2023-02-02 13:52:04,215 - instabot version: 0.117.0 (api) - ERROR - Failed to login go to instagram and change your password
+2023-02-02 13:52:04,219 - instabot version: 0.117.0 (api) - INFO - Username or password is incorrect.

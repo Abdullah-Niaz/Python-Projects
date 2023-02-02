@@ -1,0 +1,18 @@
+1. pyttsx3
+    Text to Speech (TTS) library for Python 2 and 3. Works without internet connection or delay. Supports multiple TTS engines, including Sapi5, nsss, and espeak.
+
+2. SpeechRecognition
+    Library for performing speech recognition, with support for several engines and APIs, online and offline.
+
+3. webbrowser
+    Dummy webbrowser module for Pycopy
+
+4. SMTPEmail
+    Send MIME messages via SMTP server and retrieve messages via POP3 and IMAP
+
+5. DateTime
+    This package provides a DateTime data type, as known from Zope. Unless you need to communicate with Zope APIs, you're probably better off using Python's built-in datetime module.
+
+6. pyjokes
+    One line jokes for programmers (jokes as a service)
+

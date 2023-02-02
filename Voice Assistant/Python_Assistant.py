@@ -3,6 +3,9 @@ import speech_recognition as sr  # speech recognization module and alised as sr
 import pyjokes
 import datetime
 import webbrowser
+from gtts import gTTS
+import mpyg321
+import os
 
 # Make a function which gona convert your speech to text
 

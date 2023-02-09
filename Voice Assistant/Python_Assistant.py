@@ -30,6 +30,7 @@ def speech_to_text():
             # Data should be audio recognized
             data = Recognizer.recognize_google(audio)
             print(data)
+            return data
 
         # Rasie and error if it does not recognize
         except sr.UnknownValueError:
@@ -56,5 +57,15 @@ def text_to_speech(x):
     Engine.runAndWait()
 
 
-text_to_speech("Hello, I am Docter")
+# text_to_speech("Hello, I am Docter")
 # text_to_speech("Get your online store up and running with our e-commerce services on Fiverr. Our team of experts will help you set up a user-friendly, customized e-commerce platform to help you sell your products or services online. We specialize in popular platforms such as Shopify, WooCommerce, and Magento, and can provide everything from setup and configuration to theme customization and payment gateway integration. Trust us to deliver a seamless online shopping experience for your customers.")
+
+
+if __name__ == '__main__':
+    user = speech_to_text().lower()
+    if "your name" in user:
+        name = "My Name is Alexa"
+        text_to_speech(name)
+    elif "your age" in user:
+        age = "my age is 20"
+        text_to_speech(age)

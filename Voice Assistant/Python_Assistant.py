@@ -3,7 +3,8 @@ import speech_recognition as sr  # speech recognization module and alised as sr
 import pyjokes
 import datetime
 import webbrowser
-
+import os
+import time
 # Make a function which gona convert your speech to text
 
 
@@ -46,7 +47,7 @@ def text_to_speech(x):
     voices = Engine.getProperty("voices")
     # Voice of male if 0
     # Voice of female if 1
-    Engine.setProperty("voice", voices[1].id)
+    Engine.setProperty("voice", voices[0].id)
 
     # Decrease the speed of voice
     rate = Engine.setProperty('rate', 100)
@@ -62,10 +63,44 @@ def text_to_speech(x):
 
 
 if __name__ == '__main__':
-    user = speech_to_text().lower()
-    if "your name" in user:
-        name = "My Name is Alexa"
-        text_to_speech(name)
-    elif "your age" in user:
-        age = "my age is 20"
-        text_to_speech(age)
+    # print("Enter the Code to Run Assitan")
+    # if "hey peter " in speech_to_text().lower():
+    while True:
+        user = speech_to_text().lower()
+        if "your name" in user:
+            name = "My Name is Alexa"
+            text_to_speech(name)
+        elif "your age" in user:
+            age = "my age is 20"
+            text_to_speech(age)
+        elif "bad egg" in user:
+            no = "I'm not bad egg"
+            text_to_speech(no)
+        elif "time" in user:
+            time = datetime.datetime.now().strftime("%H:%M:%S")
+            text_to_speech(time)
+            print(time)
+        elif "youtube" in user:
+            webbrowser.open("youtube.com")
+
+        elif "joke" in user:
+            jokes = pyjokes.get_joke(language="en", category="neutral")
+            text_to_speech(jokes)
+            print(jokes)
+
+        elif "play a song " in user:
+            # path of the directories where your audio are located
+            address_file = "D:\songs"
+            # list all the audio
+            list_of_songs = os.listdir(address_file)
+            print(list_of_songs)
+            # play the audio according to the index number mentioned
+            os.startfile(os.path.join(address_file, list_of_songs[0]))
+
+        elif "exit" in user:
+            text_to_speech("Thank you, See you Again ")
+            # print(goodbye)
+            # break
+        time.sleep(5)
+    # else:
+    #     print("Thank you")

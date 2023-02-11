@@ -5,15 +5,15 @@ obj = smt.SMTP("smtp.gmail.com", 587)
 # connect it
 obj.ehlo()
 obj.starttls()
-obj.login("mahnoorshoukat626@gmail.com", "95119511")
+obj.login("Your_gmail_account", "Apps_Password_Not_Gmail")
 subject = "Wordpress Developer"
 body = "Get your online store up and running with our e-commerce services on Fiverr. Our team of experts will help you set up a user-friendly, customized e-commerce platform to help you sell your products or services online. We specialize in popular platforms such as Shopify, WooCommerce, and Magento, and can provide everything from setup and configuration to theme customization and payment gateway integration. Trust us to deliver a seamless online shopping experience for your customers."
 
 
-message = "subject{}\n\n{}".format(subject, body)
+message = "Aubject: {}\n\n{}".format(subject, body)
 # you can gave multiple emails here
-list_address = ["abdullahniaz424@gmail.com"]
+list_address = ["Recever email"]
 
-obj.sendmail("mahnoorshoukat626@gmail.com", list_address, message)
+obj.sendmail("Your_gmail_account", list_address, message)
 print("Send Email")
 obj.quit()

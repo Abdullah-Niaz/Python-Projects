@@ -2,7 +2,7 @@ import openai
 import speech_recognition as sr
 
 listener = sr.Recognizer()
-openai.api_key = "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"
+openai.api_key = "provide your api key here"
 
 while True:
   #Take a input from user

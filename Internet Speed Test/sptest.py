@@ -1,9 +1,9 @@
 import speedtest
 
-test = speedtest.Speedtest()
+st = speedtest.Speedtest()
 
-download = test.download()
-upload = test.upload()
+download = st.download()
+upload = st.upload()
 
 download_mbps = round(download/10**6, 2)
 upload_mbps = round(upload/10**6, 2)

@@ -2,12 +2,13 @@ import openai
 import speech_recognition as sr
 
 listener = sr.Recognizer()
-openai.api_key = "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"
+openai.api_key = "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"
 
 while True:
   with sr.Microphone() as source:
     print("Speek Now.....")
     voice = listener.listen(source)
+    print(voice)
     data = listener.recognize_google(voice)
     model = "text-davinci-003" 
     # models

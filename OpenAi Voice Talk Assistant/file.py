@@ -2,11 +2,9 @@ import openai
 import speech_recognition as sr
 
 listener = sr.Recognizer()
-openai.api_key = "provide your api key here"
+openai.api_key = "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"
 
 while True:
-  #Take a input from user
-  # user = input("Ask Me Anything: ")
   with sr.Microphone() as source:
     print("Speek Now.....")
     voice = listener.listen(source)

@@ -2,7 +2,7 @@ import openai
 import speech_recognition as sr
 
 listener = sr.Recognizer()
-openai.api_key = "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"
+openai.api_key = ""
 
 while True:
   with sr.Microphone() as source:
